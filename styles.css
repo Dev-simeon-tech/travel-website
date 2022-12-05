@@ -1,0 +1,259 @@
+body{
+    
+    text-align: center;
+    margin: 0%;
+   
+}
+h1{
+    font-size: 50px;   
+    margin-top: 200px;
+}
+@media (max-width:985px) {
+    h1{
+        font-size: 40px;   
+        margin-top: 200px;
+    }  
+}
+
+@media (max-width:840px) {
+    h1{
+        font-size: 30px;   
+        margin-top: 200px;
+        margin-right: 20px;
+    }  
+}
+@media (max-width:600px){
+    h1{
+        font-size: 25px;   
+        margin-top: 200px;
+    }  
+}
+.hero{
+    background-image: url("london 3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding:5px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+@media (max-width:600px){
+    .hero{
+     background-attachment:scroll;
+    }
+}
+#text{
+    background-color:rgb(112, 166, 211);
+    padding:5px ;
+    color:whitesmoke;
+    border-radius: 10px;
+}
+.tourist{
+    display: flex;
+   text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+      
+}
+
+@media (max-width:600px){
+     .tourist h3{
+        font-size: 15px;
+     }
+     .tourist p{
+        font-size: 12px;
+     }
+}
+
+.image{
+    border-radius: 50%;
+    max-width: 286px;
+    min-height: 179px;
+
+}
+@media (max-width:840px){
+    .image{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 50%;
+        max-width: 240px;
+        min-height: 160px;
+    
+    } 
+}
+@media (max-width:600px){
+    .image{
+        max-width: 220px;
+        min-height: 140px;
+    }
+}
+ 
+#section{
+    background-color: #a8dadc;
+    
+}
+h2{
+    margin-top: 0px;
+}
+@media (max-width:600px){
+    h2{
+        font-size: 15px;
+    }
+}
+#link{
+
+   text-decoration: none;
+   padding: 15px 50px;
+    background-color: yellow;
+    margin-top: 100px;
+    color: black;
+    border-radius: 5px;
+    background: linear-gradient(yellow,lightyellow);
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 1s ease-in-out ;
+  
+}
+
+#link:hover{
+    background: linear-gradient(lightyellow,yellow);
+    padding: 15px 75px;
+    
+}
+@media (max-width:985px){
+    #link{
+        padding: 13px 45px;
+        font-size: 18px;
+
+    }
+}
+@media (max-width:840px){
+    #link{
+        padding: 12px 40px;
+        font-size: 15px; 
+        
+    }
+    #link:hover{
+        background: linear-gradient(lightyellow,yellow);
+        padding: 15px 70px;
+        transition: all 1s ease-in-out ; 
+    }
+} 
+@media (max-width:600px){
+    #link{
+        padding: 10px 30px;
+        font-size: 10px; 
+    }
+    #link:hover{
+        background: linear-gradient(lightyellow,yellow);
+        padding: 8px 60px;
+        transition: all 1s ease-in-out ; 
+    }
+} 
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+@media (max-width:600px){
+    #footer{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+#foot{
+    font-size:50px ;
+
+}
+#font{
+    font-size: 25px;
+}
+#images{
+    width: 50px;
+    height: 30px;
+    border: 3px solid indigo;
+    border-radius: 50%;
+    padding: 5px;
+}
+#images2{
+    width: 50px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    padding: 5px;
+}
+#images3{
+    width: 50px;
+    height: 30px;
+    border: 3px solid red;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+#images4{
+    width: 50px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+#images5{
+    width: 50px;
+    height: 30px;
+    border: 3px solid red;
+    border-radius: 50%;
+    padding: 5px;
+}
+#images6{
+    width: 50px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    padding: 5px;
+}
+@media (max-width:600px){
+    #images,#images2,#images3,#images4,#images5,
+    #images6{
+    width: 35px;
+    height: 20px; 
+    }
+}
+#bottom{
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+
+}
+#bottom p:hover{
+     color:#a8dadc ;
+}
+@media (max-width:840px){
+    #bottom{
+        display: inline;
+    }
+}
+@media (max-width:600px){
+    #bottom{
+        display: inline;
+        ;
+    }
+    #bottom p:hover{
+        color:blue ;
+   }
+}
